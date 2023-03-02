@@ -34,11 +34,12 @@ body #card-container {
 
 input {
     background-color: grey;
-    width: 100px;
+    width: 150px;
     height: 40px;
     font-family: 'Mynerve', cursive;
     font-size: 18px;
     font-weight: bold;
-    border-radius: 2px;
+    border-radius: 5px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
