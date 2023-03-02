@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+
+body {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Mynerve', cursive;
+}
+
+body #card-container {
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid black;
+    margin-top: 50px;
+    width: 700px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+
+#picture {
+    border-radius: 5px;
+    max-width: 650px;
+    max-height: 350px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: grey;
+    width: 100px;
+    height: 40px;
+    font-family: 'Mynerve', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
